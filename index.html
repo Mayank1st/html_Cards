@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Group</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h2{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 700;
+            text-align: center;
+            font-size: 20px;
+        }
+        h3{
+            font-size: 15px;
+            text-align: center;
+            color: #6f696a;
+            font-weight: 100;
+        }
+
+        .card-group {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            width: 300px;
+            max-width: 100%;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 20px;
+        }
+
+        .card-title {
+          
+            margin: 0 0 10px;
+        }
+
+        .card-description {
+            font-size: 16px;
+            color: #555;
+            margin: 0;
+            height:auto;
+            width: 100px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card-group">
+        <div class="card">
+            <img src="./1.png" alt="Card Image">
+            <div class="card-content">
+                <h2 class="card-title">Vijay Shekhar Sharma</h2>
+                <h3 class="card-title">Founder & CEO</h3>
+                <p class="card-description"><img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Paytm_logo.png" ></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./2.png" alt="Card Image">
+            <div class="card-content">
+                <h2 class="card-title">Kunal Shah</h2>
+                <h3 class="card-title">Founder</h3>
+                <p class="card-description"><img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/CRED-LOGO2.png"></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./3.png" alt="Card Image">
+            <div class="card-content">
+                <h2 class="card-title">Amrish Rau</h2>
+                <h3 class="card-title">CEO</h3>
+                <p class="card-description"><img src="https://mma.prnewswire.com/media/812226/Pine_Labs_Logo.jpg?p=facebook"></p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="./4.png" alt="Card Image">
+            <div class="card-content">
+                <h2 class="card-title">Sampad Swain</h2>
+                <h3 class="card-title">Co-Founder & CEO</h3>
+                <p class="card-description"><img src="https://cdn.blume.vc/blume/media/images/startups/instamojo/logo/Instamojo.f1670267317.png"></p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
